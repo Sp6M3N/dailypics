@@ -1,0 +1,294 @@
+body {
+    
+
+   
+  }
+  #image-bg {
+
+  background: url("http://fplusf.fr/wp-content/uploads/2015/01/14HD.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 100px;
+  overflow:hidden;
+  min-height:0px;
+
+  }
+
+
+  #cont {
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin : auto;
+    background-color: rgba(213, 214, 214, 0.8);
+    margin-top: 150px;
+    border-radius: 5px;
+    padding-top: 30px;
+  }
+
+  #cont2 {
+    text-align: center;
+    width: 500px;
+    height: 430px;
+    background-color: rgba(213, 214, 214, 0.8);
+    margin-top: 30px;
+    border-radius: 5px;
+    position: absolute;
+    padding-top: 30px;
+    
+
+
+  }
+    
+
+  #logo {
+    width: 150px;
+    height:150px;
+    border-radius:50%;
+    margin-top:-70px;
+    margin-bottom: 30px;
+    
+  }
+   input {
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 35px;
+  }
+  .form-input {
+    position:relative;
+  }
+  .fa-lock, .fa-user {
+    position:absolute;
+    top: 8px;
+    left: 88px;
+    color:rgb(7, 7, 7);
+  }
+  
+  #submit {
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(252, 250, 250);
+    border-style: none;
+    
+ 
+  }
+  #submit:hover {
+    cursor: pointer;
+    background-color: rgb(134, 138, 133);
+    color: rgb(17, 17, 17);
+  }
+  a {
+    color: white;
+  }
+
+#titre {
+   
+    text-align: center;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    font-weight: bolder; 
+    text-decoration : none;
+}
+
+.imgfoot {
+  position: absolute;
+  width: 160px;
+  height: 110px;
+  
+}
+
+.heart {
+  position: absolute;
+  padding-top: 2em;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/66955/web_heart_animation.png');
+	background-repeat: no-repeat;
+	background-size: 2900%;
+  background-position: left;
+	height: 100px;
+	width: 80px;
+  animation: heart-burst .9s steps(28) infinite;
+  margin: 0 auto;
+  width: 6em;
+}
+
+@keyframes heart-burst {
+	0% {
+		background-position: left;
+	}
+	100% {
+		background-position: right;
+	}
+}
+
+.inscription {
+  color: black;
+}
+
+#logo1 {
+  float:right;
+  width: 90px;
+  height: 40px;
+
+}
+#creation {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+  color: grey;
+
+}
+
+/* Début Slide photo */
+
+.wrapper {
+  overflow: hidden;
+  
+}
+
+.sliding-background {
+  background: url("http://julienrondino.com/wp-content/uploads/2013/12/0013.jpg") repeat-x;
+  width: 5000px;
+  height: 500px;
+  animation: slide 60s linear infinite;
+  
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1100px, 0, 0);
+  }
+}
+#slide {
+  position: absolute;
+
+}
+#unique{
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 125px;
+  background-color: black;
+  text-align: center;
+}
+
+#share {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+  color: grey;
+}
+
+#text {
+  text-align: center;
+  font-size: 10px;
+}
+
+
+/* Début haut de page myprofil */
+
+#secondbody {
+	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-size: 17px;
+  padding-top: 50px;
+  
+}
+
+.haut { background: #fff;
+  padding: 30px 270px 20px;
+}
+
+
+.avatar img { 
+	width: 130%;
+  border-radius: 100%;
+  margin: 20px 5px 20px;
+  border: 2px solid;
+}
+
+@media (min-width: 768px) {
+	.user-info {
+    padding-left: 50px;
+    
+	}
+}
+.user-info > div, .user-info ul {
+	margin-bottom: 10px;
+}
+.full-name  { 
+	display: inline-block;
+	margin-top: 0;
+	font-weight: bold;
+}
+
+
+.btn {
+	border-radius: 2px;
+	border-color: #555;
+	font-size: 85%;
+	border-width: 1.5px;
+}
+ul.ach {
+	display: block;
+}
+ul.ach, ul.badges { 
+  padding-left: 0; 
+  
+}
+ul.ach .ach-count {
+  font-weight: bold;
+  font-size: 12px;
+}
+ul.ach .ach-label {
+  color: rgb(204, 71, 71);
+  font-size: 12px;
+}
+ul.ach li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 5px;
+}
+
+ul.mfe { 
+	float: right;
+}
+ul.mfe li {
+	float: left;
+	list-style: none;
+	margin-right: 5px;
+}
+ul.badges li { 
+	list-style: none;
+	display: inline;
+	margin-right: 8px;
+}
+/* Fin haut de page myprofil */
+#imgallery { 
+
+border-spacing: 5px 1rem;
+
+}
+.imgg { 
+  text-align: center;
+  width:300px;
+  height:300px;
+  margin-right: 12px;
+
+}
+
+
